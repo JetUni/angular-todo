@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "My angular todo app",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JetUni/angular-todo.git"
+  },
+  "author": "Jarrett Sorensen",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JetUni/angular-todo/issues"
+  },
+  "homepage": "https://github.com/JetUni/angular-todo#readme"
+}
