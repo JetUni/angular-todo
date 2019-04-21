@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "todo",
+            "cwd": "/home/jet/app/dist/todo",
+            "args": "-p 4200",
+            "script": "/usr/lib/node_modules/http-server/bin/http-server",
+            "watch": true,
+        },
+    ]
+}
+
