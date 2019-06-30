@@ -1,0 +1,17 @@
+/* MessagesComponent's private CSS styles */
+#messages {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  padding: 12px 0 12px 32px;
+  position: relative;
+}
+#messages > ul > li {
+  list-style: none;
+}
+#messages > button {
+  background-color: inherit;
+  padding: 10px 10px 0 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
