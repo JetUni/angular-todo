@@ -1,0 +1,69 @@
+/* HeroesComponent's private CSS styles */
+.form-group {
+  margin: 10px 0;
+}
+.addTask {
+  width: 100%;
+}
+.addTask label {
+  clear: both;
+  float: left;
+  width: 78px;
+}
+.addTask input {
+  margin: 0 1em;
+  padding: .375rem .75rem;
+  width: auto;
+}
+.addTask input#taskAddName {
+  width: 50%;
+}
+.addTask button {
+  margin-bottom: 20px;
+}
+.tasks {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+.tasks a {
+  color: black;
+  text-decoration: none;
+}
+.tasks a:visited {
+  color: black;
+}
+.tasks li {
+  position: relative;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em 0;
+  height: 2.2em;
+  border-radius: 4px;
+}
+.tasks li[data-priority="1"] {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.tasks li[data-priority="2"] {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+.tasks li[data-complete="true"] {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+/* .tasks li[data-priority="3"] {
+  background-color: yellow;
+} */
+a.delete {
+  position: absolute;
+  right: 1em;
+}
+input[type=checkbox][name=complete] {
+  margin-left: 10px;
+  margin-right: 7px;
+  margin-top: 7px;
+  transform: scale(2);
+}
